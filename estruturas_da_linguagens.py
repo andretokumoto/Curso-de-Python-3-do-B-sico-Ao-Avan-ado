@@ -77,9 +77,17 @@ def operadores_aritmeticos():
     print('Exponenciacao', exponenciacao)
 
     modulo = 55 % 2  # resto da divisão
-    print('Modulo', modulo)     
+    print('Modulo', modulo) 
+    
+def repeticao_concatenacao():
+    
+    a = 'Filipe'
+    print("Andre "+a)
+    a_dezvezes = 'a'*10
+    print(a_dezvezes)    
     
 tipos_dados()
 conversao_tipos()
 variaveis()
 operadores_aritmeticos()
+repeticao_concatenacao()
