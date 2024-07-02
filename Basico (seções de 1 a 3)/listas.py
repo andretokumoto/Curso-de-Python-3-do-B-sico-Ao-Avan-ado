@@ -36,3 +36,15 @@ lista3.pop()
 
 print(lista)
 print(lista3)
+
+#desempacotamento
+nome1,nome2,nome3 = ['Astolfo','Claudemiro','Bastiao']
+print(nome3)
+
+nome1,*resto = ['Astolfo','Claudemiro','Bastiao']
+print(nome1)
+
+nome1,*_ = ['Astolfo','Claudemiro','Bastiao']
+print(nome1)
+
+
