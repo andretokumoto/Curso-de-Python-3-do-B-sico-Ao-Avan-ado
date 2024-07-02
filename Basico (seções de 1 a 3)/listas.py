@@ -51,3 +51,9 @@ print(nome1)
 
 tupla = 'Astolfo','Claudemiro','Bastiao'
 print(type(tupla))
+
+#lista enumerada
+
+lista_enumerada = enumerate(lista2)
+for item in lista_enumerada:
+    print(item)
