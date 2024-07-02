@@ -47,4 +47,7 @@ print(nome1)
 nome1,*_ = ['Astolfo','Claudemiro','Bastiao']
 print(nome1)
 
+#tuplas
 
+tupla = 'Astolfo','Claudemiro','Bastiao'
+print(type(tupla))
