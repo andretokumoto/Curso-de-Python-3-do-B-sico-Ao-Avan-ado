@@ -33,4 +33,26 @@ p(novos_produtos)
 print('')
 
 
+for x in range(3):
+    for y in range(3):
+        lista.append((x,y))
+        
+p(lista)
+print('')
 
+lista = []
+
+lista = [
+    (x,y)
+    for x in range(4)
+    for y in range(4)
+]
+
+p(lista)
+print('')
+
+lista = [
+    [(letra,y) for letra in 'Tokumoto']
+    for y in range(4)
+]
+p(lista)
