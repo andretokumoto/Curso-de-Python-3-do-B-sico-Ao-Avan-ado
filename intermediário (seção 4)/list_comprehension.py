@@ -1,3 +1,9 @@
+import pprint
+
+
+def p(valor):
+    pprint.pprint(valor)
+
 
 # cria um for e atribui valores na lista em sua declaração
 lista  =[numero for numero in range(10)]
@@ -20,3 +26,8 @@ novos_produtos = [
 ]
 
 print (*novos_produtos, sep='\n')
+print("")
+
+p(novos_produtos)
+
+
