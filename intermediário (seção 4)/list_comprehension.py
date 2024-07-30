@@ -23,11 +23,14 @@ produtos = [
 novos_produtos = [
     {**produto, 'preco' : produto['preco']*0.9}
     for produto in produtos
+    if produto['preco'] <= 20.0
 ]
 
-print (*novos_produtos, sep='\n')
+#print (*novos_produtos, sep='\n')
 print("")
 
 p(novos_produtos)
+print('')
+
 
 
