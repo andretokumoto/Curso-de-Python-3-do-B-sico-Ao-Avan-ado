@@ -1,7 +1,13 @@
 import importlib
 
-import modulo
+from modulos.modulo import mostra
 
-for i in range(10):
-    importlib.reload(modulo)
-print('CABO')
+def imprime():
+    print("aeee")
+    
+def imprime_a():
+    for i in range(10):
+        importlib.reload(mostra)
+    print('CABO')
+    
+    

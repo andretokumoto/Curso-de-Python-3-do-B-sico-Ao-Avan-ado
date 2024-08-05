@@ -1,1 +1,2 @@
-print('a')
+def mostra():
+    print('a')
