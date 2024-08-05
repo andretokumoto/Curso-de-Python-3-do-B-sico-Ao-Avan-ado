@@ -1,6 +1,7 @@
 a =10
-b = 0
+#b = 0
 #b = '0'
+b = 2
 
 try:
   c = a / b
@@ -17,3 +18,9 @@ except (TypeError,IndexError) as erro:
     
 except Exception:
     print('ERRO DESCONHECIDO')
+
+else:
+    print('execução sem erros')
+    
+finally: #sempre sera executado
+    print('fim da execução')
