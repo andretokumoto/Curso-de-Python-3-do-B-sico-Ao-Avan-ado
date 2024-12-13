@@ -6,7 +6,8 @@ arquivo.write('texto do arquivo')
 arquivo.close()
 '''
 
-with open(caminho,'w') as arquivo:
+with open(caminho,'w', encoding='utf-8') as arquivo:
+    arquivo.write('Antenção:\n')
     arquivo.write('Texto com with open\n')
     arquivo.writelines(
         ('linha 1\n','linha 2\n')
