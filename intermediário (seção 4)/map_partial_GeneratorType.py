@@ -37,7 +37,19 @@ novos_prd_map = map(
     produtos
 )
 
+prod_filtrados  =[
+    p for p in produtos
+    if p['preco'] < 100
+]
+
+prod_comFilter = filter(
+    lambda p:p['preco'] > 100, produtos
+)
+
 print_iter(produtos)
 print_iter(novos_prd)
 print_iter(novos_prd2)
 print(list(novos_prd_map))
+print()
+print_iter(prod_filtrados)
+print_iter(prod_comFilter)
