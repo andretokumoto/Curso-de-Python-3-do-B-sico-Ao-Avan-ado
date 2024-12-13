@@ -1,3 +1,4 @@
+import os
 caminho = 'exemplo_arquivo.txt'
 
 '''
@@ -19,3 +20,6 @@ with open(caminho,'r') as arquivo:
     print('READLINES')
     for linha in arquivo.readlines():
         print(linha.strip())
+        
+#os.remove(caminho)
+os.unlink(caminho)
